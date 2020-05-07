@@ -1,0 +1,12 @@
+alias unquarantine='xattr -d com.apple.quarantine'
+alias restartBT="blueutil --power 0; blueutil --power 1"
+alias phpb='php -n -d date.timezone="America/Los_Angeles" -d memory_limit=-1'
+alias noHistory='unset HISTFILE'
+alias cls='cd; clear'
+alias epoch='date +%s'
+alias kraken='open -a GitKraken --args -p "$(git rev-parse --show-toplevel)"'
+alias sha256='openssl dgst -sha256'
+alias sha1='openssl sha1'
+alias srcActivate='source venv/bin/activate'
+alias killAudio='sudo killall coreaudiod'
+alias fixAudio='sudo launchctl start com.apple.audio.coreaudiod'

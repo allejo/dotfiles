@@ -1,0 +1,41 @@
+# System files
+*~
+._*
+.DS_Store
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Generated files
+.idea
+.vscode
+.python-version
+.php-version
+.ruby-version
+.sass-cache
+*.log
+
+# Archive Files
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.phar
+
+# Compiled files
+*.dylib
+*.so
+*.dll
