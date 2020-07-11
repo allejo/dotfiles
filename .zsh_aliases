@@ -1,5 +1,5 @@
 alias unquarantine='xattr -d com.apple.quarantine'
-alias restartBT="blueutil --power 0; blueutil --power 1"
+alias restartBT="blueutil --power 0; sleep 2; blueutil --power 1"
 alias phpb='php -n -d date.timezone="America/Los_Angeles" -d memory_limit=-1'
 alias noHistory='unset HISTFILE'
 alias cls='cd; clear'
