@@ -66,8 +66,8 @@
 	diffstat = diff --stat
 	lg = log --pretty=oneline --abbrev-commit --graph --decorate
 
-    prune-remote = remote prune origin
-    dmb = delete-merged-branches
+	prune-remote = remote prune origin
+	dmb = delete-merged-branches
 	whoami = config user.email
 
 [tag]
