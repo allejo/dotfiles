@@ -35,7 +35,7 @@
 	c = commit
 	cl = clone --recursive
 	cm = commit -m
-	co = checkout
+	co = switch
 	cb = checkout -b
 	cp = cherry-pick
 	ups = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
