@@ -11,3 +11,8 @@ alias srcActivate='source venv/bin/activate'
 alias killAudio='sudo killall coreaudiod'
 alias fixAudio='sudo launchctl start com.apple.audio.coreaudiod'
 alias kubectlns='kubectl config set-context --current --namespace '
+
+mkfile() {
+  # mkfile path/that/does/not/exist/file.txt
+  mkdir -p $(dirname $1) && touch $1;
+}
