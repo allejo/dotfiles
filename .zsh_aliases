@@ -17,3 +17,6 @@ mkfile() {
   # mkfile path/that/does/not/exist/file.txt
   mkdir -p $(dirname $1) && touch $1;
 }
+
+# https://stackoverflow.com/a/60878037/1239484
+alias yarnaudit='npm i --package-lock-only && npm audit fix && rm yarn.lock && yarn import && rm package-lock.json'

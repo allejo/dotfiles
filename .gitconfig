@@ -3,7 +3,7 @@
 	path = ~/.gitconfig.local
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/allejo/.gitignore
 	quotepath = false
 	editor = nano
 	autocrlf = input
@@ -39,6 +39,8 @@
 	cb = checkout -b
 	cp = cherry-pick
 	db = branch -D
+	r = rebase
+	rc = rebase --continue
 	ups = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 	vc = verify-commit
 
@@ -67,9 +69,13 @@
 	diffstat = diff --stat
 	lg = log --pretty=oneline --abbrev-commit --graph --decorate
 
-	prune-remote = remote prune origin
-	dmb = delete-merged-branches
+ 	prune-remote = remote prune origin
+ 	dmb = delete-merged-branches
+ 	dsb = delete-squashed-branches
 	whoami = config user.email
+
+	# Usage: `git change-commits GIT_AUTHOR_NAME "old name" "new name"`
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
 
 [tag]
 	forceSignAnnotated = true
@@ -82,6 +88,10 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-
 [pull]
 	rebase = true
+[init]
+	defaultBranch = master
+[user]
+	name = Vladimir Jimenez
+	email = allejo@me.com

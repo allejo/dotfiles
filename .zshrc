@@ -1,16 +1,13 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-export GOPATH="$HOME/Development/Go"
-
-# Custom PATH locations
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
+# Custom PATH locations that are device specific
+[[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 
 # Custom Aliases
 [[ -s "$HOME/.zsh_aliases.local" ]] && source "$HOME/.zsh_aliases.local"
 [[ -s "$HOME/.zsh_aliases" ]] && source "$HOME/.zsh_aliases"
+
+# Custom PATH locations
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # anyenv Setup
 export PATH="$HOME/.anyenv/bin:$PATH"
