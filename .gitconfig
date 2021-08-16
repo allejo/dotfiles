@@ -33,6 +33,7 @@
 	a = add
 	s = status
 	c = commit
+	cc = clear-changes
 	cl = clone --recursive
 	cm = commit -m
 	co = switch
@@ -56,8 +57,7 @@
 	ls-ignored =  ls-files --others --exclude-standard
 
 	# Mistake related aliases
-	clear = checkout --
-	abort = checkout -- .
+	clear-changes = checkout -- .
 	unstage = reset HEAD --
 	undo = reset --soft HEAD^
 	amend = commit --amend
