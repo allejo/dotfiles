@@ -1,0 +1,8 @@
+aliases:
+    prco: pr checkout
+    prls: pr list
+    prcr: pr create
+    prv: pr view --web
+    rc: repo clone
+    rv: repo view --web
+git_protocol: ssh
