@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd "$HOME"
+yadm submodule update --recursive --init
+
+# permissions
+chmod 700 ~/.cache ~/.config
+
+# sparse checkout
+yadm gitconfig core.sparseCheckout true
+yadm sparse-checkout set '/*' '!README.md' '!UNLICENSE'
+
