@@ -88,12 +88,19 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+
+[grep]
+	lineNumber = true
+
 [pull]
 	rebase = true
+
 [rebase]
 	autoStash = true
+
 [init]
 	defaultBranch = master
+
 [user]
 	name = Vladimir Jimenez
 	email = allejo@me.com
