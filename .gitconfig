@@ -90,6 +90,8 @@
 	smudge = git-lfs smudge -- %f
 [pull]
 	rebase = true
+[rebase]
+	autoStash = true
 [init]
 	defaultBranch = master
 [user]
