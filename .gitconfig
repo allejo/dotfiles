@@ -3,7 +3,7 @@
 	path = ~/.gitconfig.local
 
 [core]
-	excludesfile = /Users/allejo/.gitignore
+	excludesfile = ~/.gitignore
 	quotepath = false
 	editor = nano
 	autocrlf = input
