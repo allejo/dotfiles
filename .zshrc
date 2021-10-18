@@ -8,6 +8,7 @@
 # Custom PATH locations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.dotnet/tools:$PATH"
 
 # anyenv Setup
 export PATH="$HOME/.anyenv/bin:$PATH"
