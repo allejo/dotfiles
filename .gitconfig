@@ -104,3 +104,5 @@
 [user]
 	name = Vladimir Jimenez
 	email = allejo@me.com
+[advice]
+	detachedHead = false
