@@ -12,6 +12,7 @@ alias killAudio='sudo killall coreaudiod'
 alias fixAudio='sudo launchctl start com.apple.audio.coreaudiod'
 alias kubectlns='kubectl config set-context --current --namespace '
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+alias got='git'
 
 mkfile() {
   # mkfile path/that/does/not/exist/file.txt
