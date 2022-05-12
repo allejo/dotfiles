@@ -45,6 +45,8 @@
 	ups = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 	vc = verify-commit
 
+	bump = commit --allow-empty -m "Bumping the build"
+
 	# Plurals
 	branches = branch -a
 	stashes = stash list
