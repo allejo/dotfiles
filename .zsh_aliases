@@ -19,5 +19,6 @@ mkfile() {
   mkdir -p $(dirname $1) && touch $1;
 }
 
-# https://stackoverflow.com/a/60878037/1239484
-alias yarnaudit='npm i --package-lock-only && npm audit fix && rm yarn.lock && yarn import && rm package-lock.json'
+# https://joshcurry.co.uk/posts/how-to-quit-globalprotect-mac/
+alias killgp='launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
+alias startgp='launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
