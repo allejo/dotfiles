@@ -13,96 +13,23 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #MenuMaskKey vk07 ; vk07 is unassigned
 #UseHook
 
-; Re-assign alt to scan code of an unassigned key
-~LAlt::
-  Sendinput {Blind}{sc0E9}
-  KeyWait, LAlt
-  Sendinput {Blind}{sc0EA}
-return
+GroupAdd, terminals, ahk_exe powershell.exe
+GroupAdd, terminals, ahk_exe WindowsTerminal.exe
+GroupAdd, terminals, ahk_exe Cmd.exe
+GroupAdd, terminals, ahk_exe mstsc.exe ; Remote desktop.
 
-~RAlt::
-  Sendinput {Blind}{sc0E9}
-  KeyWait, RAlt
-  Sendinput {Blind}{sc0EA}
-return
+GroupAdd, posix, ahk_exe powershell.exe
+GroupAdd, posix, ahk_exe WindowsTerminal.exe
+GroupAdd, posix, ahk_exe Cmd.exe
+GroupAdd, posix, ahk_exe gvim.exe
+GroupAdd, posix, ahk_exe mstsc.exe ; Remote desktop.
 
-#w::
-IfWinActive, Windows PowerShell
-  Send, {Ctrl}{LShift}{w}
-else
-  Send, ^{w}
-return
+; CHEATSHEET
+; # Win    ! Alt    ^ Ctrl    + Shift
 
-#a::Send ^a
-#b::Send ^b
-#c::Send ^c
-#+c::Send ^+c
-#d::Send ^d
-#e::Send ^e
-#f::Send ^f
-#+f::Send ^+f
-#g::Send ^g
-#h::WinMinimize, A ; Command-H - Minimize active window
-#i::Send ^i
-#j::Send ^j
-#k::Send ^k
-#l::Send ^l
-#m::WinMinimize, A
-#n::Send ^n
-#+n::Send ^+n
-#o::Send ^o
-#p::Send ^p
-#+p::Send ^+p
-#q::WinClose, A ; Command-Q - Close active window
-; #r is defined below on a per app basis
-#+r::Send ^+r
-#s::Send ^s
-#t::Send ^t
-#+t::Send ^+t
-#u::Send ^u
-#v::Send ^v
-#+w::Send ^+w
-#x::Send ^x
-#y::Send ^y
-#z::Send ^z
-#+z::Send ^Z
-#/::Send ^/
-#-::Send ^-
-#+-::Send ^+-
-#=::Send ^`=
-#+=::Send ^+=
-#!\::Send ^!\
-#Enter::Send ^{Enter}
-#+Enter::Send ^+{Enter}
-
-#!F5::Send ^!{F5}
-
-#!+Right::Send ^!+{Right}
-#!+Left::Send ^!+{Left}
-#!+Down::Send ^!+{Down}
-
-
-LWin & Tab:: AltTab
+LCtrl & Tab:: AltTab
 !Tab::Send ^{Tab}
 !+Tab::Send ^+{Tab}
-
-; Command-arrow navigation
-^Left::Send {Home}
-^Right::Send {End}
-
-; Command-Shift-arrow navigation + highlight
-#+Left::Send +{Home}
-#+Right::Send +{End}
-#+Up::Send ^+{Home}
-#+Down::Send ^+{End}
-
-; Option-arrow navigation
-!Left::Send ^{Left}
-!Right::Send ^{Right}
-
-; Option-Shift-arrow navigation + highlight
-!+Left::Send ^+{Left}
-!+Right::Send ^+{Right}
 
 ; Command-Delete - Delete line
 ^Backspace::Send +{Home}{Delete}
@@ -114,24 +41,27 @@ LWin & Tab:: AltTab
 !+Backspace::Send {Control down}{Delete}{Control up}
 
 ; Command-Shift-5 - Screenshot
-^#+4::Send {LWin down}{Shift down}s{Shift up}{LWin up}
+^+4::Send {LWin down}{Shift down}s{Shift up}{LWin up}
+
+#IfWinActive ahk_group terminals
+  ^w::Send ^W
+  ^t::Send ^+1
+#IfWinActive
 
 #IfWinActive ahk_exe sublime.exe
-  #!f::Send ^h
+  ^!f::Send ^h
 #IfWinActive
 
 ; Chrome shortcuts
 #IfWinActive ahk_exe chrome.exe
   ; Command-[ - Browser back
-  #[::Send {Browser_Back}
+  ^[::Send {Browser_Back}
   ; Command-] - Browser forward
-  #]::Send {Browser_Forward}
+  ^]::Send {Browser_Forward}
   ; Command-Option-I - Developer tools
-  #!i::Send {F12}
+  ^!i::Send {F12}
   ; Command-Y - History
-  #y::Send {Control down}h{Control up}
-  ; Command-R - Reload
-  #r::Send ^r
+  ^y::Send {Control down}h{Control up}
 #IfWinActive
 
 ; OpenVPN Connect stupidity
@@ -141,6 +71,6 @@ LWin & Tab:: AltTab
 
 ; -- Custom Keys
 
-#^+D::
+^!D::
   Run, C:\Program Files\Zeal\Zeal.exe
 return
