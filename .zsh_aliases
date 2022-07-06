@@ -19,6 +19,18 @@ mkfile() {
   mkdir -p $(dirname $1) && touch $1;
 }
 
+# Helper functions for enabling/disabling Xdebug in the CLI
+enableXdebug() {
+  export XDEBUG_MODE=debug
+  export XDEBUG_SESSION=1
+  export COMPOSER_ALLOW_XDEBUG=1
+}
+disableXdebug() {
+  unset XDEBUG_MODE
+  unset XDEBUG_SESSION
+  unset COMPOSER_ALLOW_XDEBUG
+}
+
 # https://joshcurry.co.uk/posts/how-to-quit-globalprotect-mac/
 alias killgp='launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
 alias startgp='launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
