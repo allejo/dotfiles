@@ -1,6 +1,7 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #SingleInstance, force
 #Warn  ; Enable warnings to assist with detecting common errors.
+#MaxHotkeysPerInterval 200
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
@@ -62,6 +63,10 @@ LCtrl & Tab:: AltTab
   ^!i::Send {F12}
   ; Command-Y - History
   ^y::Send {Control down}h{Control up}
+
+  ; Disable mouse wheel zooming in Chrome
+  $^WheelDown::return
+  $^WheelUp::return
 #IfWinActive
 
 ; OpenVPN Connect stupidity
