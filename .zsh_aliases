@@ -32,5 +32,5 @@ disableXdebug() {
 }
 
 # https://joshcurry.co.uk/posts/how-to-quit-globalprotect-mac/
-alias killgp='launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
-alias startgp='launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
+alias gpkill='launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
+alias gpstart='launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
