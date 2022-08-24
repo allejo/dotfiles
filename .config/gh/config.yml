@@ -4,6 +4,7 @@ aliases:
     prcr: pr create
     prv: pr view --web
     rc: repo clone
+    rcr: repo create
     rv: repo view --web
     pr-files: pr view --json files --jq '.files.[].path'
     reviews: pr list --search "user-review-requested:@me"
