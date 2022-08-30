@@ -12,6 +12,7 @@ alias killAudio='sudo killall coreaudiod'
 alias fixAudio='sudo launchctl start com.apple.audio.coreaudiod'
 alias kubectlns='kubectl config set-context --current --namespace '
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+alias openports='lsof -P -iTCP -sTCP:LISTEN'
 alias got='git'
 alias gut='git'
 
