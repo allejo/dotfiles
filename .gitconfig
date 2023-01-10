@@ -100,11 +100,21 @@
 [rebase]
 	autoStash = true
 
+[remote "origin"]
+	prune = true
+
 [init]
-	defaultBranch = master
+	defaultBranch = main
 
 [user]
 	name = Vladimir Jimenez
 	email = allejo@me.com
+
 [advice]
 	detachedHead = false
+
+[diff]
+	tool = bc
+	
+[difftool "bc"]
+	prompt = false
