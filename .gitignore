@@ -8,6 +8,7 @@
 .Trashes
 
 # Generated files
+.fleet
 .idea
 .vscode
 .python-version
