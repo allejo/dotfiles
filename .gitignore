@@ -17,6 +17,10 @@
 .sass-cache
 *.log
 
+# Common Dependencies
+node_modules/
+vendor/
+
 # Archive Files
 *.7z
 *.jar
