@@ -11,6 +11,10 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 
 # anyenv Setup
+if [[ ! -d ~/.anyenv ]]; then
+  git clone https://github.com/anyenv/anyenv ~/.anyenv
+fi
+
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
