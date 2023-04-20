@@ -6,7 +6,7 @@
 [[ -s "$HOME/.zsh_aliases" ]] && source "$HOME/.zsh_aliases"
 
 # Custom PATH locations
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 
@@ -25,6 +25,11 @@ fi
 
 source ~/.zsh-autopair/autopair.zsh
 autopair-init
+
+# install oh-my-zsh if it's not setup
+if [[ ! -d ~/.oh-my-zsh ]]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+done
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
