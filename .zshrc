@@ -9,28 +9,12 @@
 export PATH="/usr/local/sbin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
-
-# anyenv Setup
-if [[ ! -d ~/.anyenv ]]; then
-  git clone https://github.com/anyenv/anyenv ~/.anyenv
-  anyenv install --init
-fi
-
 export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
 
-# quote autopair
-if [[ ! -d ~/.zsh-autopair ]]; then
-  git clone https://github.com/hlissner/zsh-autopair ~/.zsh-autopair
-fi
+eval "$(anyenv init -)"
 
 source ~/.zsh-autopair/autopair.zsh
 autopair-init
-
-# install oh-my-zsh if it's not setup
-if [[ ! -d ~/.oh-my-zsh ]]; then
-  curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"

@@ -4,9 +4,30 @@ cd "$HOME"
 yadm submodule update --recursive --init
 
 # permissions
+mkdir -p ~/.cache ~/.config
 chmod 700 ~/.cache ~/.config
 
 # sparse checkout
 yadm gitconfig core.sparseCheckout true
 yadm sparse-checkout set '/*' '!README.md' '!UNLICENSE'
 
+# anyenv Setup
+if [[ ! -d ~/.anyenv ]]; then
+  git clone https://github.com/anyenv/anyenv ~/.anyenv
+  anyenv install --init
+fi
+
+# quote autopair
+if [[ ! -d ~/.zsh-autopair ]]; then
+  git clone https://github.com/hlissner/zsh-autopair ~/.zsh-autopair
+fi
+
+# install oh-my-zsh if it's not setup
+if [[ ! -f ~/.oh-my-zsh/oh-my-zsh.sh ]]; then
+  mkdir -p .oh-my-zsh-themes/
+  cp .oh-my-zsh/themes/* .oh-my-zsh-themes/
+  rm -rf .oh-my-zsh/
+  RUNZSH=no KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  cp .oh-my-zsh-themes/* .oh-my-zsh/themes/
+  rm -rf .oh-my-zsh-themes/
+fi
