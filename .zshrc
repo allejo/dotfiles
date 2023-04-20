@@ -13,6 +13,7 @@ export PATH="$HOME/.dotnet/tools:$PATH"
 # anyenv Setup
 if [[ ! -d ~/.anyenv ]]; then
   git clone https://github.com/anyenv/anyenv ~/.anyenv
+  anyenv install --init
 fi
 
 export PATH="$HOME/.anyenv/bin:$PATH"
@@ -29,7 +30,7 @@ autopair-init
 # install oh-my-zsh if it's not setup
 if [[ ! -d ~/.oh-my-zsh ]]; then
   curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-done
+fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
