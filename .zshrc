@@ -28,7 +28,7 @@ autopair-init
 
 # install oh-my-zsh if it's not setup
 if [[ ! -d ~/.oh-my-zsh ]]; then
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 done
 
 # Path to your oh-my-zsh installation.
