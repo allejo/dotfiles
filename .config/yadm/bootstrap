@@ -17,6 +17,11 @@ if [[ ! -d ~/.anyenv ]]; then
   anyenv install --init
 fi
 
+if [[ ! -d ~/.anyenv/plugins/anyenv-update ]]; then
+  mkdir -p $(anyenv root)/plugins
+  git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
+fi
+
 # quote autopair
 if [[ ! -d ~/.zsh-autopair ]]; then
   git clone https://github.com/hlissner/zsh-autopair ~/.zsh-autopair
