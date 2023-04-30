@@ -16,6 +16,10 @@ alias openports='lsof -P -iTCP -sTCP:LISTEN'
 alias got='git'
 alias gut='git'
 
+# https://stackoverflow.com/a/41199625
+alias npmexport="npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"'""'",\$1); print}' > \"$HOME/Documents/macOS Tools/npmfile\""
+alias npmimport='xargs npm install --global < "$HOME/Documents/macOS Tools/npmfile"'
+
 mkfile() {
   # mkfile path/that/does/not/exist/file.txt
   mkdir -p $(dirname $1) && touch $1;
