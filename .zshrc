@@ -5,19 +5,24 @@
 [[ -s "$HOME/.zsh_aliases.local" ]] && source "$HOME/.zsh_aliases.local"
 [[ -s "$HOME/.zsh_aliases" ]] && source "$HOME/.zsh_aliases"
 
+# Custom environment variables that should be available
+export BUN_INSTALL="$HOME/.bun"
+export ZSH="$HOME/.oh-my-zsh"
+
 # Custom PATH locations
 export PATH="/usr/local/sbin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
+# Auto completions
+[ -s "/Users/allejo/.bun/_bun" ] && source "/Users/allejo/.bun/_bun"
+
+# Setup terminal tools
 eval "$(anyenv init -)"
-
 source ~/.zsh-autopair/autopair.zsh
 autopair-init
-
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
