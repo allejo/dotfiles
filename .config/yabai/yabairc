@@ -29,3 +29,8 @@ yabai -m config window_topmost on
 
 # modify window shadows (default: on, options: on, off, float); show shadows only for floating windows
 yabai -m config window_shadow float
+
+# Applications to ignore
+yabai -m rule --add title="JetBrains Toolbox" manage=off mouse_follows_focus=off
+yabai -m rule --add app="iStat Menus" manage=off mouse_follows_focus=off
+yabai -m rule --add app="System Preferences" manage=off
