@@ -1,0 +1,1016 @@
+{
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "",
+  "BTTPresetName" : "Default",
+  "BTTPresetColor" : "141.418920, 54.692400, 195.330000, 255.000000",
+  "BTTGeneralSettings" : {
+    "BTTPathSampleSize" : 100,
+    "BTTCMOnTop" : true,
+    "BTTForceForceClickPressure2F" : 700,
+    "BSTLeftHalfBlock" : true,
+    "BTTMinDrawingMovement" : 2,
+    "BTTTouchBarMouseModeClickBlock" : true,
+    "BSTRightHalfBlock" : true,
+    "disableScrollingIf2" : true,
+    "batteryWarning" : false,
+    "BSTDontShowSnapAreasWhileModMoving" : 0,
+    "BSTWindowGrabPosY" : 10,
+    "showTrackpadTab" : true,
+    "singleFingerTapRight" : 0.05000000074505806,
+    "BTTDrawingStrokeWidth" : 4,
+    "cornerSnap" : true,
+    "BTRScrollSpeed" : 1,
+    "BTTTouchBarHapticFeedbackRelease" : 0,
+    "BSTIncreaseSnappingArea" : true,
+    "showDrawingsTab" : true,
+    "SIRIMouseSpeed" : 1,
+    "BTTUseNewUI" : true,
+    "BSTEnableEnhancementCheck" : true,
+    "BTTNotchBarNotchWidgetModeHideLeftFixed" : false,
+    "useAppleRemotePlugin" : false,
+    "BTTTouchBarFontSize" : 15,
+    "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612,
+    "BTRMouseSpeed" : 1,
+    "BSTPreventTopMissionControl" : true,
+    "BSTSnapAreaDefaultDashedBorder" : false,
+    "BTTEnablePalmRecognition" : true,
+    "BSTBrokenAPICheckEnabled" : false,
+    "oldScale" : 1,
+    "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
+    "BTTStageManagerLeftGap" : 190,
+    "BTTNotchBarStandardMenubarModeHideRightFixed" : false,
+    "BTTNotchBarNotchWidgetModeShowMiniMenubar" : true,
+    "BTTStageManagerSnappingIncreaseAbsolute" : false,
+    "BTTShowControlStripItem" : true,
+    "BSTSnapAreaDefaultCornerRadius" : 20,
+    "BTTNotchBarNotchMenubarModeHideLeftFixed" : true,
+    "BTTMovePastedToTop" : true,
+    "BTTMaxAllowedDrawingRotation" : 30,
+    "BTTDidRegisterForUpdateStats" : "4.333",
+    "BTTNotchBarNotchWidgetModeHideRightFixed" : false,
+    "BTTStageManagerLeaveGap" : true,
+    "BTTStageManagerLeftSnappingAreaIncreasePercentage" : 0.125,
+    "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
+    "BSTMoveTreshold" : 2,
+    "BTTHideFomControlStripWhenOpen" : false,
+    "BTTNumberOfStarts" : 14930,
+    "BTTForceNormalClickPressure3F" : 150,
+    "showSiriRemoteTab" : true,
+    "SIRIScrollSpeed" : 1,
+    "BTTShowControlStrip" : true,
+    "tpThreeFingerDoubleTapDelay" : 0.5,
+    "showNormalMiceTab" : true,
+    "BTTNotchBarStandardMenubarModeHideLeftScrollable" : true,
+    "BSTSnapAreaDefaultBorderWidth" : 3,
+    "BTTTouchBarHapticFeedback" : 0,
+    "BTTForceNormalClickPressure" : 150,
+    "BTTDrawingRightMouse" : true,
+    "BTTConvertedDevices" : true,
+    "snapBottomRight" : true,
+    "BTTThreeFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTTouchBarVisible" : false,
+    "BTTIMGURDefault" : true,
+    "BTTNotchBarShowOnStandardScreens" : true,
+    "BSTSnapAreaDefaultBackgroundColor" : "129.991390, 201.122858, 227.012328, 104.550000",
+    "BSTSnapAreaDefaultPictoSize" : 0.69999998807907104,
+    "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTNotchBarNotchMenubarModeHideLeftScrollable" : true,
+    "BTTNotchBarNotchMenubarModeShowOriginalStatusIcons" : true,
+    "BSTTopMissionControlTreshold" : 34,
+    "BTTNotchBarNotchWidgetModeHideRightScrollable" : false,
+    "BSTSnapAreaDefaultHighlightColor" : "92.625563, 122.647995, 161.664347, 56.100000",
+    "BTTStageManagerLeftGapPercentage" : 0.10000000000000001,
+    "BTTForceForceClickPressure5F" : 600,
+    "BTTForceForceClickPressure" : 700,
+    "BSTMemorySaver" : true,
+    "BTTLastClamshellState" : false,
+    "BTTStageManagerLeaveGapEvenIfHiding" : false,
+    "BTTTouchBarAnimateGroups" : true,
+    "BTTShowBTTWhenControlStripHidden" : true,
+    "BTTFreeSpaceAfterESC" : 10,
+    "mmZoomRepeatDelay" : 0.10000000000000001,
+    "snapTopLeft" : true,
+    "BTTDrawingAreaWidth" : 915,
+    "BTTTiltWheelDelay" : 0.44999998807907104,
+    "twoFingerDoubleTapDelay" : 0.5,
+    "BTTForceNormalClickPressure5F" : 200,
+    "BTTTouchBarChecked" : true,
+    "BTTShowESCWhenControlStripHidden" : true,
+    "showBTTRemoteTab" : true,
+    "BTTFilterMagicMouseLeftRightEdge" : true,
+    "BTTNotchBarStandardWidgetModeShowOriginalStatusIcons" : false,
+    "BTTDrawingsHighlightStartPoint" : true,
+    "BTTEnableUsageLogging" : true,
+    "snapBottomLeft" : true,
+    "BTTScreenshotOpenImgurInBrowser" : true,
+    "BTTDontRestartAfterSleep" : true,
+    "BTTForceNormalClickPressure2F" : 140,
+    "BSTSnapAreaDefaultInvisible" : false,
+    "BTTDrawingAreaHeight" : 626,
+    "BTTForceForceClickPressure4F" : 650,
+    "BTTTouchBarUseMonoSpacedFont" : true,
+    "BSTCornerRoundness" : 40,
+    "BTTStageManagerLeftSnappingAreaIncrease" : 222,
+    "BTTForceForceHapticResponse" : 13,
+    "BTTNotchBarStandardMenubarModeHideLeftFixed" : true,
+    "showMagicMouseTab" : true,
+    "BTTNotchBarNotchWidgetModeShowOriginalStatusIcons" : false,
+    "BTTAlwaysShowPresetIndicators" : true,
+    "BTTStageManagerIncreaseEvenIfHiding" : true,
+    "BTTForcedHidden" : false,
+    "showTouchBarTab" : true,
+    "BTTFreeSpaceAfterBTT" : 20,
+    "BTTNotchBarStandardWidgetModeHideRightFixed" : false,
+    "BTTTwoFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTDismissIfNothingToShow" : true,
+    "BTTDrawingsRestoreMousePosition" : true,
+    "BSTDisableSnapAreas" : false,
+    "BTTDefaultTBIconWidth" : 22,
+    "BTTStageManagerLeftGapAbsolute" : false,
+    "snapTopRight" : true,
+    "BSTSnapAreaDefaultShowPictogram" : false,
+    "BTTSelectedKeyboardTabIndex" : 0,
+    "BTTTouchBarKeepIconRatio" : true,
+    "BSTBrokenAPICheckDelay" : 0.20000000000000001,
+    "BTTStageManagerIncrease" : true,
+    "showKeyboardTab" : true,
+    "BTTForceForceClickPressure3F" : 700,
+    "disableScrollingIf3" : true,
+    "BSTWindowGrabPosX" : 67,
+    "BTTHandleThumbsRestingOnTopEdgeAndCorners" : true,
+    "BTTAutoSwitchToOldKeyboardImplementation" : true,
+    "BTTTpThreeFingerSwipeSensitivity" : 0.29999999999999999,
+    "BTTCopyImgurURLToClipboard" : true,
+    "BTTForceNormalHapticResponse" : 12,
+    "BTTTouchBarSupportEnabled" : false,
+    "BTTDaysToKeepHistory" : 14,
+    "BTTNotchBarNotchMenubarModeHideRightFixed" : true,
+    "BTTDefaultTBIconHeight" : 22,
+    "BTTNotchBarStandardMenubarModeShowOriginalStatusIcons" : true,
+    "BTTNotchBarStandardWidgetModeHideLeftFixed" : false,
+    "singleFingerTapLeft" : 0.44999998807907104,
+    "BTTNotchBarStandardWidgetModeHideLeftScrollable" : false,
+    "BTTForceNormalClickPressure4F" : 175,
+    "BTTNotchBarNotchWidgetModeHideLeftScrollable" : false,
+    "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
+    "BTTNotchBarStandardWidgetModeHideRightScrollable" : false,
+    "BTTNotchBarStandardMenubarModeHideRightScrollable" : false,
+    "pluginDictionary" : {
+      "1" : {
+        "Apple Remote Plugin" : {
+          "10" : "Play\/Pause, Holding (only on aluminum remote)",
+          "2" : "Up, Holding",
+          "3" : "Down",
+          "11" : "Menu",
+          "4" : "Down, Holding",
+          "5" : "Left",
+          "12" : "Menu, Holding",
+          "6" : "Left, Holding",
+          "13" : "Center",
+          "7" : "Right",
+          "8" : "Right, Holding",
+          "14" : "Center, Holding",
+          "1" : "Up",
+          "9" : "Play\/Pause (only on aluminum remote)"
+        }
+      }
+    },
+    "showOtherTriggersTab" : true,
+    "BTTNotchBarNotchMenubarModeHideRightScrollable" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
+  },
+  "BTTPresetUUID" : "92C97FDF-60CA-47A7-ADF8-DFA586D26B2B",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.panic.Transmit",
+      "BTTAppName" : "Transmit",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.04003,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTUUID" : "22EA6F5F-5C3D-4732-9403-38E64288C6A7",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398259,
+          "BTTTriggerType" : 115,
+          "BTTTriggerTypeDescription" : "Pinch In",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "58,55,45",
+          "BTTUUID" : "10A1799C-FEEA-4D93-B1CA-48C558AF0FB6",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399761,
+          "BTTTriggerType" : 116,
+          "BTTTriggerTypeDescription" : "Pinch Out",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,14",
+          "BTTUUID" : "2AB3AC85-5556-48A7-B135-DF85225C5E03",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039937,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "59,48",
+          "BTTUUID" : "9420D395-2F41-4438-8BC3-C1F7D3DF6080",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.jetbrains.PhpStorm",
+      "BTTAppName" : "PhpStorm",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399709,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "97E9A52B-F08A-4DD6-AAEC-EFE2C96BB46F",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399818,
+          "BTTTriggerType" : 117,
+          "BTTTriggerTypeDescription" : "Rotate Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "w",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "55,13",
+          "BTTUUID" : "3601733B-FE62-4D1A-8983-A7DEBFF85B1C",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039928,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "F5B60D95-B4D4-408E-95B1-5840594672C1",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
+      "BTTAppName" : "Visual Studio Code",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.039835,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "715FE700-D175-4017-9C91-8A75EEC932E6",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399199,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "64CDF9C8-5156-4259-8DA8-B925B9A3A0B4",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.dt.Xcode",
+      "BTTAppName" : "Xcode",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.03987,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "DB3E74A1-FB6C-4D8E-B03B-B642B0CE6297",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398469,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "8D1091B7-65BC-4B39-83F3-BB4EB201AEFE",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.mozilla.firefox",
+      "BTTAppName" : "Firefox",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.040009,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTUUID" : "FE389764-B31A-40AF-83C5-DEE88B70FAD6",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399351,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTUUID" : "6E93205F-1A84-4D42-A51A-E883436A58F8",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1683305355.3375812,
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTUUID" : "1968B899-7B4C-4BB7-BAD6-8692A31A6860",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTLastUpdatedAt" : 1682058945.8106031,
+          "BTTTriggerType" : 117,
+          "BTTTriggerTypeDescription" : "Rotate Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "w",
+          "BTTShortcutToSend" : "55,13",
+          "BTTUUID" : "67390D9D-D9AC-4E01-AC0E-4E1F17568272",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTLastUpdatedAt" : 1682052208.3914719,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "[",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "47027AEF-BA25-4CC4-9279-5CD4998679A1",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1
+        },
+        {
+          "BTTLastUpdatedAt" : 1682052276.4189019,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "]",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "7CD8F900-769B-4CB7-B218-6A094832AC78",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.jetbrains.AppCode",
+      "BTTAppName" : "AppCode",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "AppCode",
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0400009,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "AFB47F90-6F00-4D41-856E-7C0C3085AC2F",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0400028,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "B6352558-9E59-4975-B7C7-954A1FB254C6",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.axosoft.gitkraken",
+      "BTTAppName" : "GitKraken",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "GitKraken",
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398431,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "TAB",
+          "BTTShortcutToSend" : "59,48",
+          "BTTUUID" : "30507E1E-1C13-4909-BDEF-7FAE54137655",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.03982,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "TAB",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTUUID" : "76AEF06A-F2E5-4CF3-B2F3-85BA45947934",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.systempreferences",
+      "BTTAppName" : "System Preferences",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.039953,
+          "BTTTriggerType" : 160,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,30",
+          "BTTUUID" : "B2BBF6F1-66CB-4BD0-9718-41AC8EE252B5",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039886,
+          "BTTTriggerType" : 159,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,33",
+          "BTTUUID" : "696F6E8C-9D42-4229-9876-0859750838C9",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.jetbrains.WebStorm",
+      "BTTAppName" : "WebStorm",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.039855,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "4D212245-EF26-4F2E-8249-B9E66EC54702",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039999,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "F907DB0D-6494-4736-BB7C-010626C7132E",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039995,
+          "BTTTriggerType" : 117,
+          "BTTTriggerTypeDescription" : "Rotate Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTLayoutIndependentActionChar" : "w",
+          "BTTShortcutToSend" : "55,13",
+          "BTTUUID" : "330606FC-1EB0-4BDE-8514-BE0327979CFC",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.sublimetext.4",
+      "BTTAppName" : "Sublime Text",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Sublime Text",
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0397849,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTUUID" : "8654C870-A3D6-44F8-A206-9E9EB7A4A070",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398622,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTUUID" : "694766F2-30A0-4D31-A337-320BCEACB51C",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Preview",
+      "BTTAppName" : "Preview",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Preview",
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0400419,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "59,48",
+          "BTTUUID" : "C10494B6-289B-4243-BA99-28BDD05823A8",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398979,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTUUID" : "32B2F2EE-16C6-4E19-B204-594DA1B6E7C8",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.kapeli.dashdoc",
+      "BTTAppName" : "Dash",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Dash",
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399051,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTUUID" : "CB67D2F1-4678-4E79-8729-864777D5118F",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039824,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTUUID" : "A62F3554-F3BF-47FC-A295-DC6107649070",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398002,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "41D30CAB-4BC7-4777-A2E3-F169D4C46ADE",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 5,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398378,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "CB27E6CD-CEB8-4323-AF89-E63CF4274E5A",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0400062,
+          "BTTTriggerType" : 116,
+          "BTTTriggerTypeDescription" : "Pinch Out",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,31",
+          "BTTUUID" : "D62D9B01-D6D9-40E9-8643-C27519433F77",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039865,
+          "BTTTriggerType" : 159,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,126",
+          "BTTUUID" : "1B7D3DC5-AC4B-4357-8A7C-3DB14AE0F299",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0400438,
+          "BTTTriggerType" : 115,
+          "BTTTriggerTypeDescription" : "Pinch In",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 85,
+          "BTTPredefinedActionName" : "Create New File in Current Folder",
+          "BTTUUID" : "5F0FAEE1-B0FC-40D5-9463-28E05AB29FF9",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399311,
+          "BTTTriggerType" : 160,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,125",
+          "BTTUUID" : "62B63142-1D19-403B-B62A-0CEF573D221D",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039958,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 85,
+          "BTTPredefinedActionName" : "Create New File in Current Folder",
+          "BTTAdditionalConfiguration" : "1572904",
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "FE6C7418-E599-48D4-99D8-DD604682C0BD",
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "n",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 45,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.googlecode.iterm2",
+      "BTTAppName" : "iTerm",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.0398741,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "61352FAB-9FFE-4EC5-BC99-D64A001754B5",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.03988,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "4BE54D00-8928-4908-A41C-81A66059BC93",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1682051230.0005,
+          "BTTTriggerType" : 138,
+          "BTTTriggerTypeDescription" : "TipTap Middle (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "55,12",
+          "BTTUUID" : "A650F99C-C1E4-4579-90DD-55DA07A89DED",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399399,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Launch Application \/ Open File \/ Start Apple Script …",
+          "BTTLaunchPath" : "\/Applications\/Free Ruler.app",
+          "BTTAdditionalConfiguration" : "1703978",
+          "BTTKeyboardShortcutKeyboardType" : 1111,
+          "BTTUUID" : "188C4000-0FEA-4376-BB4F-8C5B845CAC49",
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "r",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 15,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 1,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399499,
+          "BTTTriggerType" : 167,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe From Top Edge",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 290,
+          "BTTPredefinedActionName" : "Show Control Center",
+          "BTTUUID" : "833E4222-DEB2-4A97-A7FD-6F59DD217098",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.0399652,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Launch Application \/ Open File \/ Start Apple Script …",
+          "BTTLaunchPath" : "file:\/\/\/Applications\/Dash.app",
+          "BTTAdditionalConfiguration" : "1703978",
+          "BTTKeyboardShortcutKeyboardType" : 1731,
+          "BTTUUID" : "E211F8AC-80A3-4056-B14D-86CD38E3DCEC",
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "d",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 2,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1682051230.0005,
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTUUID" : "B4B40833-E130-4EF6-BE2D-7775479A647D",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1682051230.0005,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTUUID" : "5ED2CBFE-4D42-425E-89B5-27A381F30205",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1683305430.935039,
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTUUID" : "08FD488B-4AB5-4E9E-AAF2-4DC0822D99FD",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTGestureNotes" : "TipTap Right (2 Fingers Fix)"
+        },
+        {
+          "BTTLastUpdatedAt" : 1682051230.0005,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "59,48",
+          "BTTUUID" : "4ABC6020-879F-4F31-8F6E-173402CE8CAA",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Terminal",
+      "BTTAppName" : "Terminal",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1700954412.039973,
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTUUID" : "5EEB6FCA-49FE-4A87-BB53-5D91B16812FB",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTLastUpdatedAt" : 1700954412.039943,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTUUID" : "4178019D-5F9E-4071-ADA8-1D997FF274FF",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
