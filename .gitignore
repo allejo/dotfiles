@@ -33,6 +33,7 @@ vendor/
 *.lzma
 *.iso
 *.tar
+*.tgz
 *.dmg
 *.xpi
 *.gem

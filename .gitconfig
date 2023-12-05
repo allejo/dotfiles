@@ -7,6 +7,7 @@
 	quotepath = false
 	editor = nano
 	autocrlf = input
+	attributesfile = ~/.gitattributes
 
 [mergetool]
 	keepBackup = true
@@ -115,6 +116,9 @@
 
 [diff]
 	tool = bc
+
+[diff "plist"]
+  textconv = plutil -convert xml1 -o -
 	
 [difftool "bc"]
 	prompt = false
