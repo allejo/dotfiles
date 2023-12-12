@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ANSIescape",
+		"AutoHotkey",
+		"ayu",
+		"BinaryPlist",
+		"ChannelRepositoryTools",
+		"CodeFormatter",
+		"EditorConfig",
+		"Emmet",
+		"GenerateUUID",
+		"HTML5",
+		"INI",
+		"Liquid",
+		"Nette + Latte + Neon",
+		"Package Control",
+		"PackageDev",
+		"RawLineEdit",
+		"Sass",
+		"Terraform",
+		"Twig",
+		"uroboroSQL Formatter",
+		"Visual Studio Dark",
+		"Whitespace",
+	],
+}

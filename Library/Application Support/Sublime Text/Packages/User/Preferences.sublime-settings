@@ -1,0 +1,24 @@
+{
+	"color_scheme": "Packages/Visual Studio Dark/Visual Studio Dark.tmTheme",
+	"font_face": "Menlo",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		50,
+		72,
+		80,
+		120
+	],
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"theme": "ayu-mirage.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	/*"font_size": 12,*/
+	/*"font_size": 17,*/
+	/*"font_size": 28,*/
+}
