@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Visual Studio Dark/Visual Studio Dark.tmTheme",
+	"color_scheme": "ayu-dark.sublime-color-scheme",
 	"font_face": "Menlo",
 	"ignored_packages":
 	[
@@ -15,7 +15,7 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 4,
-	"theme": "ayu-mirage.sublime-theme",
+	"theme": "ayu-dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	/*"font_size": 12,*/
