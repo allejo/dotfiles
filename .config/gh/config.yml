@@ -9,3 +9,4 @@ aliases:
     pr-files: pr view --json files --jq '.files.[].path'
     reviews: pr list --search "user-review-requested:@me"
 git_protocol: ssh
+version: "1"
