@@ -1,0 +1,7 @@
+{
+	"theme": "auto",
+	"render_commit_dialog_message_at_top": true,
+	"side_bar_layout": "columns",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+}
