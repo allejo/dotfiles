@@ -21,4 +21,5 @@
 	/*"font_size": 12,*/
 	/*"font_size": 17,*/
 	/*"font_size": 28,*/
+	"index_files": true,
 }
