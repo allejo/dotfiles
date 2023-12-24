@@ -1,9 +1,6 @@
 alias cls='cd; clear'
 alias epoch='date +%s'
-alias fixAudio='sudo launchctl start com.apple.audio.coreaudiod'
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
-alias killAudio='sudo killall coreaudiod'
-alias kraken='open -a GitKraken --args -p "$(git rev-parse --show-toplevel)"'
 alias kubectlns='kubectl config set-context --current --namespace '
 alias noHistory='unset HISTFILE'
 alias openports='lsof -P -iTCP -sTCP:LISTEN'
@@ -11,12 +8,12 @@ alias phpb='php -n -d date.timezone="America/Los_Angeles" -d memory_limit=-1'
 alias restartBT="blueutil --power 0; sleep 2; blueutil --power 1"
 alias sha1='openssl sha1'
 alias sha256='openssl dgst -sha256'
-alias srcActivate='source venv/bin/activate'
 alias unquarantine='xattr -d com.apple.quarantine'
+alias yt-mp3='yt-dlp --audio-quality 0 --extract-audio --audio-format mp3'
 
 # https://stackoverflow.com/a/41199625
-alias npmexport="npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"'""'",\$1); print}' > \"$HOME/Documents/macOS Tools/npmfile\""
-alias npmimport='xargs npm install --global < "$HOME/Documents/macOS Tools/npmfile"'
+alias npmexport="npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"'""'",\$1); print}' > \"$HOME/Documents/Configs.macOS/npmfile\""
+alias npmimport='xargs npm install --global < "$HOME/Documents/Configs.macOS/npmfile"'
 
 mkfile() {
   # mkfile path/that/does/not/exist/file.txt
@@ -60,12 +57,14 @@ gitPreAutoStatusCommands=(
     'mv'
     'init'
 )
+
 # taken from http://stackoverflow.com/a/8574392/4647743
 function elementInArray() {
   local e
   for e in "${@:2}"; do [[ "$e" == "$1" ]] && return 0; done
   return 1
 }
+
 function git() {
     command git $@
     if (elementInArray $1 $gitPreAutoStatusCommands); then
