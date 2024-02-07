@@ -19,6 +19,8 @@ shift + alt - d : yabai -m window --swap east
 # move windows to different spaces
 ctrl + alt - left : yabai -m window --space prev --focus
 ctrl + alt - right : yabai -m window --space next --focus
+shift + ctrl + alt - right : yabai -m window --display east --focus
+shift + ctrl + alt - left : yabai -m window --display west --focus
 
 # remove a window from the BSP and center it
 shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
