@@ -1,0 +1,22 @@
+#!/bin/bash
+
+move-app() {
+    wid=$(yabai -m query --windows | jq ".[] | select(.app == \"$1\") | .id")
+
+    if [ -z "$wid" ]; then
+        echo "No window found for $1"
+        return
+    fi
+
+    yabai -m window $wid --space $2
+}
+
+move-app "Music" 5
+
+move-app "Spark" 6
+
+move-app "Discord" 7
+move-app "Messages" 7
+move-app "Quassel IRC Client" 7
+move-app "Slack" 7
+move-app "Signal" 7
