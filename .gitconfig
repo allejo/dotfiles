@@ -109,7 +109,6 @@
 
 [user]
 	name = Vladimir Jimenez
-	email = allejo@me.com
 
 [advice]
 	detachedHead = false
@@ -118,7 +117,7 @@
 	tool = bc
 
 [diff "plist"]
-  textconv = plutil -convert xml1 -o -
-	
+	textconv = plutil -convert xml1 -o -
+
 [difftool "bc"]
 	prompt = false
