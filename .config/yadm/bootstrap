@@ -36,14 +36,3 @@ if [[ ! -f ~/.oh-my-zsh/oh-my-zsh.sh ]]; then
   cp .oh-my-zsh-themes/* .oh-my-zsh/themes/
   rm -rf .oh-my-zsh-themes/
 fi
-
-# install bun if it doesn't exist
-if [[ ! -d ~/.bun ]]; then
-  curl -fsSL https://bun.sh/install | bash
-
-  # The bun installation will touch my .zshrc file duplicating the `$PATH` update
-  # that I've already put in.
-  #
-  # https://github.com/oven-sh/bun/issues/5131
-  yadm restore ~/.zshrc
-fi
