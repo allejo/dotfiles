@@ -8,9 +8,6 @@
 # Custom environment variables that should be available
 export ZSH="$HOME/.oh-my-zsh"
 
-# Custom PATH locations
-source "$HOME/.zprofile"
-
 # Setup terminal tools
 source ~/.zsh-autopair/autopair.zsh
 autopair-init
