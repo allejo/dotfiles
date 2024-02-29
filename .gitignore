@@ -21,6 +21,7 @@
 # Common Dependencies
 node_modules/
 vendor/
+venv/
 
 # Archive Files
 *.7z
