@@ -5,6 +5,7 @@ export PATH="/usr/local/sbin:/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
+export PATH="$HOME/.symfony5/bin:$PATH"
 export PATH="$HOME/.mampenv/bin:$PATH"
 export PATH="$HOME/.utilities:$PATH"
 
