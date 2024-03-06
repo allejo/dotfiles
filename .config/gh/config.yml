@@ -1,4 +1,5 @@
 aliases:
+    amerge: pr merge --auto
     prco: pr checkout
     prls: pr list
     prcr: pr create
@@ -8,5 +9,6 @@ aliases:
     rv: repo view --web
     pr-files: pr view --json files --jq '.files.[].path'
     reviews: pr list --search "user-review-requested:@me"
+    prs: pr list
 git_protocol: ssh
 version: "1"
