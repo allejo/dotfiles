@@ -1,3 +1,4 @@
+alias dev='cd $HOME/Development'
 alias cls='cd; clear'
 alias epoch='date +%s'
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
