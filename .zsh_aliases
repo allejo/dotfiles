@@ -21,6 +21,18 @@ mkfile() {
   mkdir -p $(dirname $1) && touch $1;
 }
 
+# Helper function
+move-app() {
+    wid=$(yabai -m query --windows | jq ".[] | select(.app == \"$1\") | .id")
+
+    if [ -z "$wid" ]; then
+        echo "No window found for $1"
+        return
+    fi
+
+    yabai -m window $wid --space $2
+}
+
 # Helper functions for enabling/disabling Xdebug in the CLI
 enableXdebug() {
   export XDEBUG_MODE=debug
