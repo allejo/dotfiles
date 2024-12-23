@@ -16,21 +16,9 @@ alias yt-mp3='yt-dlp --audio-quality 0 --extract-audio --audio-format mp3'
 alias npmexport="npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"'""'",\$1); print}' > \"$HOME/Documents/Configs.macOS/npmfile\""
 alias npmimport='xargs npm install --global < "$HOME/Documents/Configs.macOS/npmfile"'
 
-mkfile() {
+function mkfile() {
   # mkfile path/that/does/not/exist/file.txt
   mkdir -p $(dirname $1) && touch $1;
-}
-
-# Helper function
-move-app() {
-    wid=$(yabai -m query --windows | jq ".[] | select(.app == \"$1\") | .id")
-
-    if [ -z "$wid" ]; then
-        echo "No window found for $1"
-        return
-    fi
-
-    yabai -m window $wid --space $2
 }
 
 # Helper functions for enabling/disabling Xdebug in the CLI
