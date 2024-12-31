@@ -1,7 +1,9 @@
 # Certain tools use this file for determining the PATH for the user, so
 # store PATH modifications here instead of .zshrc.
 
-export PATH="/usr/local/sbin:/opt/homebrew/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
