@@ -1,6 +1,7 @@
 alias dev='cd $HOME/Development'
 alias cls='cd; clear'
 alias epoch='date +%s'
+alias isodate='date +"%Y-%m-%dT%H:%M:%S%z"'
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 alias kubectlns='kubectl config set-context --current --namespace '
 alias noHistory='unset HISTFILE'
