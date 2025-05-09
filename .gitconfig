@@ -64,6 +64,8 @@
 	undo = reset --soft HEAD^
 	amend = commit --amend
 	amendne = commit --amend --no-edit
+	fix = commit --fixup
+	fixup = rebase -i --autosquash
 
 	# Diff related aliases
 	changes = diff --name-status
@@ -99,6 +101,7 @@
 
 [rebase]
 	autoStash = true
+	autoSquash = true
 
 [remote "origin"]
 	prune = true
