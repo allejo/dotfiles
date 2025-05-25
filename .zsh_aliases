@@ -7,10 +7,14 @@ alias kubectlns='kubectl config set-context --current --namespace '
 alias noHistory='unset HISTFILE'
 alias openports='lsof -P -iTCP -sTCP:LISTEN'
 alias phpb='php -n -d date.timezone="America/Los_Angeles" -d memory_limit=-1'
+alias rld='exec $SHELL'
 alias restartBT="blueutil --power 0; sleep 2; blueutil --power 1"
 alias sha1='openssl sha1'
 alias sha256='openssl dgst -sha256'
 alias unquarantine='xattr -d com.apple.quarantine'
+alias vhide='chflags hidden'
+alias vunhide='chflags nohidden'
+alias yadm-edit="yadm list -a  | sed 's/ /\\\\ /g' | xargs subl"
 alias yt-mp3='yt-dlp --audio-quality 0 --extract-audio --audio-format mp3'
 
 # https://stackoverflow.com/a/41199625

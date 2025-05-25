@@ -7,9 +7,7 @@ yadm submodule update --recursive --init
 mkdir -p ~/.cache ~/.config
 chmod 700 ~/.cache ~/.config
 
-# sparse checkout
-yadm gitconfig core.sparseCheckout true
-yadm sparse-checkout set '/*' '!README.md' '!UNLICENSE'
+chflags hidden ~/README.md
 
 # anyenv Setup
 if [[ ! -d ~/.anyenv ]]; then
@@ -36,3 +34,5 @@ if [[ ! -f ~/.oh-my-zsh/oh-my-zsh.sh ]]; then
   cp .oh-my-zsh-themes/* .oh-my-zsh/themes/
   rm -rf .oh-my-zsh-themes/
 fi
+
+yadm alt
