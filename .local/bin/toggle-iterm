@@ -70,11 +70,15 @@ esac
 # ...and use AppleScript to position the window
 osascript <<EOF
 
-tell application "Finder"
-    set screenBounds to bounds of window of desktop
-    set screenWidth to item 3 of screenBounds
-    set screenHeight to item 4 of screenBounds
-end tell
+use framework "AppKit"
+use scripting additions
+
+set screenList to current application's NSScreen's screens()
+set currScreen to item 1 of screenList
+
+set frame to currScreen's frame()
+set screenWidth to item 1 of item 2 of frame
+set screenHeight to item 2 of item 2 of frame
 
 tell application "$APP_NAME"
     if (count of windows) = 0 then
