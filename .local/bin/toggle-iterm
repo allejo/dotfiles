@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+
+# Copyright (c) Vladimir "allejo" Jimenez
+# MIT License
+
+# Define app names as variables
+APP_NAME="iTerm"
+PROCESS_NAME="iTerm2"
+WINDOW_SIZE=400
+DIRECTION="bottom" # Options: "bottom", "top", "left", "right"
+
+focusedApp=$(osascript -e "tell application \"System Events\" to get name of application processes whose frontmost is true and visible is true")
+
+if [ "$focusedApp" == "$PROCESS_NAME" ]; then
+    osascript -e "tell application \"Finder\" to set visible of process \"$PROCESS_NAME\" to false"
+
+    exit
+fi
+
+open -g -a "$APP_NAME"
+
+# Wait until the app has a window
+MAX_RETRY=5
+count=0
+
+while true; do
+    WINDOW_COUNT=$(osascript -e "tell application \"System Events\" to get count (windows of application process \"$PROCESS_NAME\")")
+
+    if [[ "$WINDOW_COUNT" -gt 0 ]]; then
+        break
+    fi
+
+    count=$($count+1)
+
+    if [[ "$count" -gt "$MAX_RETRY" ]]; then
+        break;
+    fi
+
+    sleep 0.5
+done
+
+# Find the window ID for iTerm, change its layout to floating
+iTermWinId=$(aerospace list-windows --all --format "%{window-id} %{app-name}" | grep "$PROCESS_NAME" | cut -d " " -f1)
+focusedWorkspace=$(aerospace list-workspaces --focused)
+
+aerospace move-node-to-workspace $focusedWorkspace --window-id $iTermWinId
+aerospace layout floating --window-id $iTermWinId
+
+# Calculate window bounds based on direction
+WINDOW_BOUNDS=""
+case "$DIRECTION" in
+  "bottom")
+    WINDOW_BOUNDS="{0, screenHeight - $WINDOW_SIZE, screenWidth, screenHeight}"
+    ;;
+  "top")
+    WINDOW_BOUNDS="{0, 0, screenWidth, $WINDOW_SIZE}"
+    ;;
+  "left")
+    WINDOW_BOUNDS="{0, 0, $WINDOW_SIZE, screenHeight}"
+    ;;
+  "right")
+    WINDOW_BOUNDS="{screenWidth - $WINDOW_SIZE, 0, screenWidth, screenHeight}"
+    ;;
+  *)
+    echo "Invalid direction: $DIRECTION"
+    exit 1
+    ;;
+esac
+
+# ...and use AppleScript to position the window
+osascript <<EOF
+
+tell application "Finder"
+    set screenBounds to bounds of window of desktop
+    set screenWidth to item 3 of screenBounds
+    set screenHeight to item 4 of screenBounds
+end tell
+
+tell application "$APP_NAME"
+    if (count of windows) = 0 then
+        create window with default profile
+    end if
+
+    try
+        tell first window
+            set bounds to $WINDOW_BOUNDS
+        end tell
+
+        activate
+    on error errMsg
+        display dialog "Error: " & errMsg
+    end try
+end tell
+
+EOF

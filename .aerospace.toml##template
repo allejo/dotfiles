@@ -167,6 +167,8 @@ automatically-unhide-macos-hidden-apps = false
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-shift-semicolon = 'mode service'
 
+    ctrl-down = 'exec-and-forget ~/.local/bin/toggle-iterm'
+
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 [mode.service.binding]
@@ -232,8 +234,3 @@ automatically-unhide-macos-hidden-apps = false
    D = 1
    E = 1
 {% endif %}
-
-[[on-window-detected]]
-    if.app-id = 'com.googlecode.iterm2'
-    check-further-callbacks = true
-    run = ['layout floating', 'move-node-to-workspace 1']
