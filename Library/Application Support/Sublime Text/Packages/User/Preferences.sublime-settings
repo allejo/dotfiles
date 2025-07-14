@@ -1,8 +1,12 @@
 {
-	"color_scheme": "ayu-dark.sublime-color-scheme",
+	"color_scheme": "auto",
+	"dark_color_scheme": "ayu-dark.sublime-color-scheme",
+	"light_color_scheme": "ayu-light.sublime-color-scheme",
 	"font_face": "Menlo",
 	"ignored_packages":
 	[
+		"Formatter",
+		"LSP-pyright",
 		"Vintage",
 	],
 	"open_files_in_new_window": false,
@@ -15,11 +19,10 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 4,
-	"theme": "ayu-dark.sublime-theme",
+	"theme": "auto",
+	"dark_theme": "ayu-dark.sublime-theme",
+	"light_theme": "ayu-light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	/*"font_size": 12,*/
-	/*"font_size": 17,*/
-	/*"font_size": 28,*/
 	"index_files": true,
 }

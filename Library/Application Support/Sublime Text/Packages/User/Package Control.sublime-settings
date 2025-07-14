@@ -2,6 +2,8 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Formatter",
+		"LSP-pyright",
 	],
 	"installed_packages":
 	[
@@ -28,6 +30,7 @@
 		"Sass",
 		"Terminus",
 		"Terraform",
+		"Toggle Dark Mode",
 		"Twig",
 		"YamlPipelines",
 	],
