@@ -170,7 +170,7 @@ automatically-unhide-macos-hidden-apps = true
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-shift-semicolon = 'mode service'
 
-    ctrl-down = 'exec-and-forget ~/.local/bin/toggle-iterm'
+    ctrl-down = 'exec-and-forget /bin/bash -c "open -a iTerm"'
 
     cmd-h = [] # Disable "hide application"
     cmd-alt-h = [] # Disable "hide others"
