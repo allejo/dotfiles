@@ -22,6 +22,7 @@
 [push]
 	# Avoids having to use --set-upstream-to
 	default = current
+	autoSetupRemote = true
 
 [fetch]
 	prune = true
