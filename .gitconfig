@@ -44,6 +44,7 @@
 	cb = checkout -b
 	cp = cherry-pick
 	db = branch -D
+	ghr = "!f() { git remote add origin $(gh repo view $1 --json sshUrl --jq .sshUrl); }; f"
 	r = rebase
 	rc = rebase --continue
 	ups = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
