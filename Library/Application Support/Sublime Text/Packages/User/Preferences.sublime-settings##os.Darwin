@@ -22,5 +22,6 @@
 	"light_theme": "ayu-light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"index_files": true
+	"index_files": true,
+	"font_size": 12,
 }

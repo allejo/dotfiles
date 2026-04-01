@@ -2,3 +2,6 @@
 	gpgsign = false
 [core]
 	excludesFile = ~/.config/yadm/ignore
+[yadm]
+	auto-alt = false
+	auto-copy = false
