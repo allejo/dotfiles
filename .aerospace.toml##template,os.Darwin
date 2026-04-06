@@ -172,8 +172,6 @@ automatically-unhide-macos-hidden-apps = true
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-shift-semicolon = 'mode service'
 
-    ctrl-down = 'exec-and-forget /bin/bash -c "open -a iTerm"'
-
     cmd-h = [] # Disable "hide application"
     cmd-alt-h = [] # Disable "hide others"
 
@@ -196,6 +194,11 @@ automatically-unhide-macos-hidden-apps = true
     down = 'volume down'
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
+
+[[on-window-detected]]
+    if.app-id = 'com.googlecode.iterm2'
+    if.window-title-regex-substring = 'iTerm2 Hotkey Window'
+    run = ['layout floating']
 
 [workspace-to-monitor-force-assignment]
 {% if yadm.hostname == "Vladimirs-Mac-mini" %}
