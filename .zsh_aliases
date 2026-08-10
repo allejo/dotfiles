@@ -1,3 +1,5 @@
+# https://apple.stackexchange.com/a/478217
+alias bzfs='$(mdfind -name BZFlag -onlyin /Applications 2>&1 | grep -v UserQueryParser)/Contents/MacOS/bzfs'
 alias dev='cd $HOME/Development'
 alias cls='cd; clear'
 alias epoch='date +%s'
@@ -25,7 +27,10 @@ alias npmimport='xargs npm install --global < "$HOME/Documents/Configs.macOS/npm
 
 function mkfile() {
   # mkfile path/that/does/not/exist/file.txt
-  mkdir -p $(dirname $1) && touch $1;
+
+  for arg in "$@"; do
+    mkdir -p $(dirname $arg) && touch $arg;
+  done
 }
 
 # Helper functions for enabling/disabling Xdebug in the CLI
